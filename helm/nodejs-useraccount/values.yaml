@@ -2,8 +2,8 @@ deployment:
   name: webapp-deployment
   replicaCount: 3
 
-image: anusri1908/helm:40
-  repository: 
+image: 
+  repository: anusri1908/helm:47
   pullPolicy: Always
   containerName: useraccount
   imagePullSecrets: dockerhub
