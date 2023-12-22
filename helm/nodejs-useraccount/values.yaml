@@ -2,7 +2,7 @@ deployment:
   name: webapp-deployment
   replicaCount: 3
 
-image: anusri1908/helm:44
+image: anusri1908/helm
   repository: 
   pullPolicy: Always
   containerName: useraccount
